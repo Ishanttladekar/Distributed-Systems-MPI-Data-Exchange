@@ -1,0 +1,8 @@
+# MPI Hostfile for Multi-System Network Setup
+# Format: <Hostname or IP address> slots=<number of CPU cores/processes to allocate>
+
+# System 1 (Node 1 - Master / Rank 0)
+192.168.1.10 slots=1
+
+# System 2 (Node 2 - Worker / Rank 1)
+192.168.1.11 slots=1
