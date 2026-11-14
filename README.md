@@ -125,18 +125,19 @@ mpiexec -n 2 python mpi_exchange.py
 
 ---
 
-## 5. Visual Screenshots & Execution Results
+## 5. Visual Screenshots & Execution Results (Windows 11)
 
-All screenshots are stored in the [`screenshots/`](file:///d:/DS1/screenshots/) directory for direct inclusion in reports and submissions:
+All Windows 11 execution and implementation screenshots are stored in the [`screenshots/`](screenshots/) directory:
 
-| Deliverable | Description | File Link |
+| Deliverable | Description | Screenshot File |
 | :--- | :--- | :--- |
-| **System Architecture** | Physical layout of System 1 and System 2 with CPUs, private RAM, and Network Interconnect | [`00_system_architecture_diagram.png`](file:///d:/DS1/screenshots/00_system_architecture_diagram.png) |
-| **Code Implementation** | Syntax-highlighted C code implementation of MPI communication | [`05_code_implementation_vscode.png`](file:///d:/DS1/screenshots/05_code_implementation_vscode.png) |
-| **Basic Point-to-Point** | Compilation and execution output of blocking data send/receive & ACK | [`01_basic_exchange_execution.png`](file:///d:/DS1/screenshots/01_basic_exchange_execution.png) |
-| **Deadlock-Free Exchange** | Atomic bidirectional data exchange using `MPI_Sendrecv` | [`02_deadlock_free_exchange_execution.png`](file:///d:/DS1/screenshots/02_deadlock_free_exchange_execution.png) |
-| **Non-blocking Asynchronous** | Overlapping CPU computation while transmitting 1,000,000 elements | [`03_nonblocking_exchange_execution.png`](file:///d:/DS1/screenshots/03_nonblocking_exchange_execution.png) |
-| **Distributed Array Workload** | Workload partitioning, parallel CPU execution, and sum aggregation | [`04_array_computation_execution.png`](file:///d:/DS1/screenshots/04_array_computation_execution.png) |
+| **System Architecture** | Physical layout of System 1 and System 2 with CPUs, private RAM, and Network Interconnect | [`screenshots/00_system_architecture_diagram.png`](screenshots/00_system_architecture_diagram.png) |
+| **Code Implementation** | Visual Studio Code dark theme on Windows 11 showing C MPI implementation | [`screenshots/01_win11_vscode_implementation.png`](screenshots/01_win11_vscode_implementation.png) |
+| **Windows 11 Compilation** | Windows Terminal (PowerShell) running `compile_windows.bat` generating all `.exe` targets | [`screenshots/02_win11_compilation_execution.png`](screenshots/02_win11_compilation_execution.png) |
+| **Basic Point-to-Point** | Windows Terminal running `mpiexec -n 2 01_basic_exchange.exe` (Send/Recv/ACK) | [`screenshots/03_win11_basic_exchange_execution.png`](screenshots/03_win11_basic_exchange_execution.png) |
+| **Deadlock-Free Exchange** | Windows Terminal running `mpiexec -n 2 02_deadlock_free_exchange.exe` (`MPI_Sendrecv`) | [`screenshots/04_win11_deadlock_free_execution.png`](screenshots/04_win11_deadlock_free_execution.png) |
+| **Non-blocking Asynchronous** | Windows Terminal running `mpiexec -n 2 03_nonblocking_exchange.exe` (100% CPU overlap) | [`screenshots/05_win11_nonblocking_execution.png`](screenshots/05_win11_nonblocking_execution.png) |
+| **Distributed Array Workload** | Windows Terminal running `mpiexec -n 2 04_array_computation_exchange.exe` (Parallel sum) | [`screenshots/06_win11_array_computation_execution.png`](screenshots/06_win11_array_computation_execution.png) |
 
 ---
 

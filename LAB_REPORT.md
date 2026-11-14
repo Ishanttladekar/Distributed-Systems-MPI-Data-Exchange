@@ -426,22 +426,24 @@ mpirun -np 2 --hostfile hosts.txt ./04_array_computation_exchange
 
 ---
 
-## 7. Execution Screenshots and Logs
+## 7. Execution Screenshots and Logs (Windows 11)
 
-All screenshots are located in the `screenshots/` directory:
+All high-resolution Windows 11 screenshots are located in the `screenshots/` directory:
 
-1. **System Architecture Diagram:**  
+1. **System Architecture Diagram (System 1 & System 2):**  
    `screenshots/00_system_architecture_diagram.png`
-2. **Code Implementation in IDE:**  
-   `screenshots/05_code_implementation_vscode.png`
-3. **Execution 1: Point-to-Point Message Exchange:**  
-   `screenshots/01_basic_exchange_execution.png`
-4. **Execution 2: Deadlock-Free Bidirectional Exchange:**  
-   `screenshots/02_deadlock_free_exchange_execution.png`
-5. **Execution 3: Asynchronous Non-blocking Execution:**  
-   `screenshots/03_nonblocking_exchange_execution.png`
-6. **Execution 4: Distributed Array Computation & Aggregation:**  
-   `screenshots/04_array_computation_execution.png`
+2. **VS Code Implementation Window (Windows 11):**  
+   `screenshots/01_win11_vscode_implementation.png`
+3. **Windows 11 Compilation in PowerShell:**  
+   `screenshots/02_win11_compilation_execution.png`
+4. **Execution 1: Point-to-Point Blocking Message Exchange:**  
+   `screenshots/03_win11_basic_exchange_execution.png`
+5. **Execution 2: Deadlock-Free Bidirectional Exchange:**  
+   `screenshots/04_win11_deadlock_free_execution.png`
+6. **Execution 3: Asynchronous Non-blocking Execution (CPU Overlap):**  
+   `screenshots/05_win11_nonblocking_execution.png`
+7. **Execution 4: Distributed Array Computation & Aggregation:**  
+   `screenshots/06_win11_array_computation_execution.png`
 
 ---
 
