@@ -4,7 +4,7 @@
 **Topic:** Inter-Process Communication & Data Exchange Using Message Passing Interface (MPI)  
 **Student Name:** Ishant Ladekar  
 **Roll No:** [Your Roll No]  
-**Repository Link:** [Your GitHub Repository URL]  
+**Repository Link:** https://github.com/Ishanttladekar/Distributed-Systems-MPI-Data-Exchange  
 **Date of Submission:** November 2026  
 
 ---
