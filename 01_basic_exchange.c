@@ -1,10 +1,3 @@
-/*
- * Program: 01_basic_exchange.c
- * Description: Point-to-Point data exchange between System 1 (Rank 0) and System 2 (Rank 1)
- *              using blocking MPI_Send and MPI_Recv.
- * Architecture: Two independent CPU systems connected via a network.
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -19,19 +12,14 @@ int main(int argc, char *argv[]) {
     char processor_name[MPI_MAX_PROCESSOR_NAME];
     int name_len;
 
-    // Initialize the MPI environment
     MPI_Init(&argc, &argv);
 
-    // Get the total number of processes
     MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-    // Get the rank (ID) of the current process
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
 
-    // Get the name of the physical machine (hostname)
     MPI_Get_processor_name(processor_name, &name_len);
 
-    // Ensure exactly 2 systems / processes are participating
     if (size != 2) {
         if (rank == 0) {
             fprintf(stderr, "Error: This program must be run with exactly 2 processes (one for System 1, one for System 2).\n");

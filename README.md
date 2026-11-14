@@ -132,7 +132,8 @@ All Windows 11 execution and implementation screenshots are stored in the [`scre
 | Deliverable | Description | Screenshot File |
 | :--- | :--- | :--- |
 | **System Architecture** | Physical layout of System 1 and System 2 with CPUs, private RAM, and Network Interconnect | [`screenshots/00_system_architecture_diagram.png`](screenshots/00_system_architecture_diagram.png) |
-| **Code Implementation** | Visual Studio Code dark theme on Windows 11 showing C MPI implementation | [`screenshots/01_win11_vscode_implementation.png`](screenshots/01_win11_vscode_implementation.png) |
+| **Code Implementation (Part 1)** | Visual Studio Code on Windows 11 showing C MPI implementation (Lines 1 - 39) | [`screenshots/01_win11_vscode_implementation_part1.png`](screenshots/01_win11_vscode_implementation_part1.png) |
+| **Code Implementation (Part 2)** | Visual Studio Code on Windows 11 showing C MPI implementation (Lines 40 - 76) | [`screenshots/01_win11_vscode_implementation_part2.png`](screenshots/01_win11_vscode_implementation_part2.png) |
 | **Windows 11 Compilation** | Windows Terminal (PowerShell) running `compile_windows.bat` generating all `.exe` targets | [`screenshots/02_win11_compilation_execution.png`](screenshots/02_win11_compilation_execution.png) |
 | **Basic Point-to-Point** | Windows Terminal running `mpiexec -n 2 01_basic_exchange.exe` (Send/Recv/ACK) | [`screenshots/03_win11_basic_exchange_execution.png`](screenshots/03_win11_basic_exchange_execution.png) |
 | **Deadlock-Free Exchange** | Windows Terminal running `mpiexec -n 2 02_deadlock_free_exchange.exe` (`MPI_Sendrecv`) | [`screenshots/04_win11_deadlock_free_execution.png`](screenshots/04_win11_deadlock_free_execution.png) |

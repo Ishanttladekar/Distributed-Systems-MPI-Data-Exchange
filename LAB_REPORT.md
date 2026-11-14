@@ -433,7 +433,8 @@ All high-resolution Windows 11 screenshots are located in the `screenshots/` dir
 1. **System Architecture Diagram (System 1 & System 2):**  
    `screenshots/00_system_architecture_diagram.png`
 2. **VS Code Implementation Window (Windows 11):**  
-   `screenshots/01_win11_vscode_implementation.png`
+   - Part 1 (Lines 1 - 39): `screenshots/01_win11_vscode_implementation_part1.png`  
+   - Part 2 (Lines 40 - 76): `screenshots/01_win11_vscode_implementation_part2.png`
 3. **Windows 11 Compilation in PowerShell:**  
    `screenshots/02_win11_compilation_execution.png`
 4. **Execution 1: Point-to-Point Blocking Message Exchange:**  
